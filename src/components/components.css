@@ -1,0 +1,25 @@
+.principal{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: solid black;
+    color : white;
+    margin: 1rem;
+
+
+}
+
+li{
+
+    font-size: 25px;
+    background-color: none;
+    transition: background-color 0.7s, font-size 0.5s;
+
+}
+
+li:hover{
+    font-size: 27px;
+    background-color: #cccccc87;
+}
